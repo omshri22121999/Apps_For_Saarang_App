@@ -1,5 +1,6 @@
 package in.iitm.omshri.quizapp;
 
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -14,6 +15,8 @@ public class QuestionActivity extends AppCompatActivity {
     RadioButton rad_opt_three;
     RadioButton rad_opt_four;
     Button  btn_submit;
+    SharedPreferences pref;
+    SharedPreferences.Editor editor = pref.edit();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
