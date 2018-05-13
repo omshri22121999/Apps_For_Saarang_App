@@ -1,9 +1,13 @@
 package com.example.omshri.memesapp.Objects;
 
+import java.util.List;
+
 public class MemesList {
     Boolean success;
     DataClass data;
-
+    public List<MemesClass> getMemes(){
+        return data.memes;
+    }
     public String getId(Integer i){
             return data.memes.get(i).getId();
     }
