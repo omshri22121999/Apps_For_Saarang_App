@@ -1,2 +1,2 @@
-# EE17B113_Saarang_app
-Apps for Saarang Devops 2018
+# Apps For Saarang App(Saarang Coordinator Application)
+Apps for Saarang Devops Coordinator 2018
